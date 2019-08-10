@@ -1,0 +1,6 @@
+framework module Pods_AdoptNoShopTests {
+  umbrella header "Pods-AdoptNoShopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

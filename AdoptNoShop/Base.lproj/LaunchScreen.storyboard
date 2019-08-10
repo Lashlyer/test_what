@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogsandcats" translatesAutoresizingMaskIntoConstraints="NO" id="rUL-kC-qHE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="浪浪搜尋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHL-dp-9SQ">
+                                <rect key="frame" x="0.0" y="179" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5I0-XK-wgW"/>
+                                    <constraint firstAttribute="width" constant="414" id="9DF-U2-GkQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rUL-kC-qHE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5Dn-yx-Hc5"/>
+                            <constraint firstItem="zHL-dp-9SQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="9n0-yd-Weh"/>
+                            <constraint firstItem="zHL-dp-9SQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VIL-mn-9FS"/>
+                            <constraint firstItem="zHL-dp-9SQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X85-pr-Uqk"/>
+                            <constraint firstItem="rUL-kC-qHE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jyc-qm-sI1"/>
+                            <constraint firstItem="rUL-kC-qHE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="s9J-E4-kLy"/>
+                            <constraint firstAttribute="bottom" secondItem="rUL-kC-qHE" secondAttribute="bottom" id="zYP-DQ-izZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dogsandcats" width="1267" height="1294"/>
+    </resources>
+</document>
